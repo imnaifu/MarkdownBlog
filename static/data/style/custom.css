@@ -20,7 +20,7 @@ p{
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #656565;
+    color: #3e3e3e;
 }
 
 a, a:hover, a:focus {
@@ -41,8 +41,6 @@ img {
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
 }
-
-
 
 
 a[data-toggle='collapse'] {
@@ -74,6 +72,13 @@ a[aria-expanded='true']::before {
     padding: 30px 0;
 }
 
+
+pre {
+    color: white;
+    background: #374758;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* media queries */
 @media (max-width: 768px){

@@ -1,0 +1,11 @@
+{
+
+    "enable_resume": true,
+    "enable_add_new": false,
+
+    "me_img": "avatar.jpg",
+    "me_text": "Hello!",
+
+    "nav_text": ["Me", "Resume", "Blog"] 
+
+}

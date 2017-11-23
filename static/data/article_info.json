@@ -1,0 +1,10 @@
+{ 
+    "articles": [
+        {
+            "filename": "first_blog.md",
+            "title": "My First Blog",
+            "type" : "Articles",
+            "date": "1970-01-01"
+        }
+    ] 
+}

@@ -10,24 +10,20 @@ html {
 }
 html, body {
     min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", sans-serif;
     overflow-x: hidden;
     /*background: #fafafa;*/
     background-image: linear-gradient(to top, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 300;
-    line-height: 1.7em;
+    line-height: 1.6em;
     color: #3e3e3e;
 }
 
-a, a:hover, a:focus {
-    color:inherit;
-    text-decoration: none;
-    transition: all 0.3s;  
-}
+
 
 img {
     width: 100%;
@@ -43,23 +39,7 @@ img {
 }
 
 
-a[data-toggle='collapse'] {
-    /* not sure if used */
-    position:relative;
-}
 
-a[aria-expanded='false']::before, a[aria-expanded='true']::before {
-    content: '\f063'; arrow down
-    display: block;
-    position:absolute;
-    right:20px;
-    font-family: 'FontAwesome';
-    font-size: 0.6em;
-}
-
-a[aria-expanded='true']::before {
-    content: '\f062';
-}
 
 
 #toggleButton {
@@ -68,7 +48,7 @@ a[aria-expanded='true']::before {
 }
 
 .article {
-    margin-left: 270px;
+    margin-left: 300px;
     padding: 30px 0;
 }
 
@@ -78,6 +58,36 @@ pre {
     background: #374758;
     padding: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #e9ecef;
+}
+
+table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #e9ecef;
+}
+
+table tbody + tbody {
+  border-top: 2px solid #e9ecef;
+}
+table tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.search_value {
+    color: red;
 }
 
 /* media queries */

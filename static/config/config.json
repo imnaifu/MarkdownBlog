@@ -1,8 +1,8 @@
 {
 
     "enable_resume": true,
-    "enable_add_new": false,
-
+    
+    "me_animation": true,
     "me_img": "avatar.jpg",
     "me_text": "Hello",
 

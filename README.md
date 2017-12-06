@@ -1,6 +1,6 @@
 # MarkdownBlog
 
-A static makrdown blog system that allow you to build your own blog with [Github Pages](https://pages.github.com/)
+A static makrdown blog system that allow you to build your own blog with [Github Pages](https://pages.github.com/)  
 Unlike Jekll, Hexo MarkdownBlog don't need the Nodejs to compile.  
 **To be short** : 
 1. put your markdown file into '/static/data/article' folder

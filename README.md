@@ -45,12 +45,12 @@ e.g you have two articles, the registration file will be something like this.
     ]
 }
 ```
-
+## Tips
 #### How to add image.
-1. Put all you image into the '/static/data/img/' folder, then anywhere if you wanna use the image, just using the filename.
-  - If you wanna add image into the markdown file, there are two ways
-    1. Using the outside image then \[\](image-src-url)
-    2. Put your image into the img folder then include uisng \[\](image-file-name.jpb)
+Put all you image into the '/static/data/img/' folder, then anywhere if you wanna use the image, just using the filename.
+- If you wanna add image into the markdown file, there are two ways
+  1. Using the outside image then \[\](image-src-url)
+  2. Put your image into the img folder then include uisng \[\](image-file-name.jpb)
 
  
 

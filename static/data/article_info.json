@@ -5,6 +5,12 @@
             "title": "My first article",
             "type" : "Class",
             "date": "1970-01-01"
+        },
+        {
+            "filename": "my_second_article.md",
+            "title": "My second article",
+            "type" : "Class2",
+            "date": "Apr 1st, 2017"
         }
     ]
 }

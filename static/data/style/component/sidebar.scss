@@ -1,0 +1,95 @@
+#sidebar{
+    width: $sidebarWidth;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /*viewpoint height*/
+    z-index: 998;
+    /*background: #404E66;*/
+    background-image: linear-gradient(180deg, #29323c 0%, #485563 100%);
+    color: #fff;
+    transition: all 0.3s; 
+    padding: 30px 0 50px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+
+    .sidebar-header{
+        /*background: #283550;*/
+        padding:0 20px
+    }
+
+    ul.components{
+        padding:20px 0;
+        border-bottom: 1px solid #404E66;
+    }
+
+    ul p{
+        color: #fff;
+        padding: 10px;
+    }
+
+    ul li a {
+        padding: 13px 15px;
+        font-size: 1.1em;
+        display: block;
+        font-weight: 300
+    }
+
+    ul li a:hover {
+        color: black;
+        background: #8EA4BF;
+    }
+
+    ul li.active a[aria-expanded="true"] {
+        /*to replace hover effect for active and expanded element*/
+        color: #fafafa;
+        /*background: #404E66;*/
+    }
+
+    ul ul a {
+        /* a inside */
+        font-size: 0.9em !important;
+        padding-left: 30px !important;
+        /*background: #34425f;*/
+    }
+
+
+    li.active li.active a {
+        color: black;
+        background: #8EA4BF;
+    }
+
+    a.active {
+        background: #D7DCE3;
+    }
+       
+
+    a[data-toggle='collapse'] {
+        /* not sure if used */
+        position:relative;
+    }
+
+    a[aria-expanded='false']::before, a[aria-expanded='true']::before {
+        content: '\f063'; //arrow down
+        display: block;
+        position:absolute;
+        right:20px;
+        font-family: 'FontAwesome';
+        font-size: 0.6em;
+    }
+
+    a[aria-expanded='true']::before {
+        content: '\f062';
+    }
+
+    a, a:hover, a:focus {
+        color:inherit;
+        text-decoration: none;
+        transition: all 0.3s;  
+    }
+
+    .search {
+        padding-bottom: 10px;
+    }
+}

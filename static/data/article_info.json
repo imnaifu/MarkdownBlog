@@ -1,9 +1,15 @@
 {
     "articles": [
         {
-            "filename": "class/my_first_article.md",
-            "title": "My first article",
-            "type" : "Class",
+            "filename": "class/first article.md",
+            "title": "First article",
+            "type" : "Type 1",
+            "date": "1970-01-01"
+        },
+        {
+            "filename": "class/second article.md",
+            "title": "Second article",
+            "type" : "Type 2",
             "date": "1970-01-01"
         }
     ]

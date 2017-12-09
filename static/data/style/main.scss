@@ -1,9 +1,4 @@
-// external
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-@import "external/bootstrap.min.css";
-@import "external/font-awesome-4.7.0/css/font-awesome.min.css";
-@import "external/monokai-sublime.min.css";
-
 @import "config/config.scss";
 
 /* basic */
@@ -29,6 +24,8 @@ body {
 //global
 #app{
 
+         overflow-wrap: break-word;
+
     .disable {
         display:hidden;
     }
@@ -49,7 +46,9 @@ body {
     }
 
     hr {
-        margin: $l 0;
+        margin: 20px 0;
+        border: 0;
+        border-bottom: 1px #dadada solid; 
     }
 
     h2 {
@@ -65,9 +64,15 @@ body {
     img {
         display: block;
         height: auto;
+        max-width: 100%;
         margin: auto;
     }
 
+    code {
+        color: white;
+        background: #1b1818;
+        font-size: 1.1em;
+    }
 
     blockquote{
         margin:$xl 0;
@@ -75,16 +80,8 @@ body {
         border-left: $xs solid #9a9a9a;
     }
 
-
-    .line{
-        width: 100%;
-        height: 1px;
-        border-bottom: 1px dashed #ddd;
-        margin: 40px 0;
-    }
-
-
     pre {
+        overflow: auto;
         color: white;
         background: #1b1818;
         padding: $m;

@@ -15,7 +15,7 @@
 
     .article-inner {
         margin:0 auto;
-        padding:0 $xl;
+        padding:0 $xxl;
         max-width: $articleMaxWidth;
     }
 
@@ -26,7 +26,10 @@
     
     a, a:hover {
         color: black;
-        font-weight:500;
     }
+    ul{
+        // overflow: auto; 
+    }
+
 
 }

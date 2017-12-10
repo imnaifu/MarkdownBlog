@@ -58,7 +58,7 @@ Put all you image into the '/static/data/img/' folder, then anywhere if you wann
   1. Using the outside image then \[\](image-src-url)
   2. Put your image into the img folder then include uisng \[\](image-file-name.jpb)
  
-### How to add vedio
+#### How to add vedio
 Local vedio is not supported, you can only include vedio from vedio platform
 - Youtube:
   1. Go to the vedio page

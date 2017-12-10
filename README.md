@@ -1,11 +1,11 @@
 # MarkdownBlog
 
 A static makrdown blog system that allow you to build your own blog with [Github Pages](https://pages.github.com/)  
-Unlike Jekll or Hexo, MarkdownBlog don't need the Nodejs to compile.  
+Unlike Jekll or Hexo, MarkdownBlog doesn't require command line process.
 **To be short** : 
 1. put your markdown file into '/static/data/article' folder
 2. register your file in the '/static/data/article_info.json
-Then is all done.
+That's all
 
 ## How to use
 1. Fork this lib to your own repo
@@ -52,12 +52,23 @@ e.g you have two articles, the registration file will be something like this.
 }
 ```
 ## Tips
-#### How to add image.
+#### How to add image
 Put all you image into the '/static/data/img/' folder, then anywhere if you wanna use the image, just using the filename.
 - If you wanna add image into the markdown file, there are two ways
   1. Using the outside image then \[\](image-src-url)
   2. Put your image into the img folder then include uisng \[\](image-file-name.jpb)
-
+ 
+### How to add vedio
+Local vedio is not supported, you can only include vedio from vedio platform
+- Youtube:
+  1. Go to the vedio page
+  2. click 'Share'
+  3. click 'Embed'
+  4. copy the 'iframe' tag, e.g `<iframe width="560" height="315" src="https://www.youtube.com/embed/3EfhkI0Zs78" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>`
+  5. paste in your article
+- Youku also supported
+  
+  
  
 
 

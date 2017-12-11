@@ -1,0 +1,38 @@
+#blog_default {
+    .wrapper{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: stretch;
+        padding: 50px;
+    }
+
+    .flex-item{
+        flex:1;
+        max-width: 500px;
+        min-width: 350px;
+        min-height: 200px;
+        background: #e7a61a;
+        border-radius: 2px;
+        margin: 1rem;
+        padding: 1rem;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }        
+    }
+
+}

@@ -2,9 +2,12 @@
     .nav {
         margin: 15px 10px 15px 10px;
 
-        a, a:hover, a:focus {
-            color:inherit;
+        a {
             text-decoration: none;
+            color: black;
+            &:hover {
+                text-decoration: underline;
+            }
         }
 
         .active{

@@ -103,9 +103,11 @@ body {
 
 #app_nav .nav {
   margin: 15px 10px 15px 10px; }
-  #app_nav .nav a, #app_nav .nav a:hover, #app_nav .nav a:focus {
-    color: inherit;
-    text-decoration: none; }
+  #app_nav .nav a {
+    text-decoration: none;
+    color: black; }
+    #app_nav .nav a:hover {
+      text-decoration: underline; }
   #app_nav .nav .active {
     box-shadow: none;
     outline: none !important;
@@ -129,8 +131,11 @@ body {
 #blog_article .article-text {
   padding: 25px 0;
   min-height: 75vh; }
-#blog_article a, #blog_article a:hover {
+#blog_article a {
+  text-decoration: none;
   color: black; }
+  #blog_article a:hover {
+    text-decoration: underline; }
 
 #me {
   margin-top: 15vh; }
@@ -279,5 +284,33 @@ body {
   #sidebar #serarch_input {
     height: 28px;
     width: 100%; }
+
+#blog_default .wrapper {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: stretch;
+  padding: 50px; }
+#blog_default .flex-item {
+  flex: 1;
+  max-width: 500px;
+  min-width: 350px;
+  min-height: 200px;
+  background: #e7a61a;
+  border-radius: 2px;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  #blog_default .flex-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px; }
+    #blog_default .flex-item a:hover {
+      text-decoration: underline; }
+  #blog_default .flex-item:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 /*# sourceMappingURL=main.css.map */

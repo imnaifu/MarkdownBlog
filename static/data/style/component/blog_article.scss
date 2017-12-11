@@ -24,12 +24,12 @@
         min-height: 75vh;
     }
     
-    a, a:hover {
+    a {
+        text-decoration: none;
         color: black;
+        &:hover {
+            text-decoration: underline;
+        }
     }
-    ul{
-        // overflow: auto; 
-    }
-
 
 }

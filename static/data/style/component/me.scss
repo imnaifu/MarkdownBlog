@@ -1,17 +1,17 @@
 #me {
-    margin-top: 15vh;
+    // margin-top: 15vh;
+
+    justify-self: center;
+    align-self: center;
 
     #avatar {
         width: 200px;
-        height: 200px;
-        margin:auto;
-        display: block;
+        height: auto;
         border-radius: 50%;
     }
 
     p{
-        font-size: 50px;
-        text-align: center;
+        font-size: 3rem;
         margin: 10px 0;
     }
 

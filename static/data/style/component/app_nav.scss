@@ -1,21 +1,28 @@
 #app_nav{
-    .nav {
-        margin: 15px 10px 15px 10px;
 
-        a {
-            text-decoration: none;
-            color: black;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+    //grid system
+    grid-column: 1/3;
+    grid-row: 1/2;
 
-        .active{
-            box-shadow: none;
-            outline: none !important;
-            border: none;
-            background: transparent;
-            color: black;
-        }
+    #navbar {
+        list-style: none;
+        padding: 10px 3px;
+        margin: 0;
+        display: flex;
+        display: -ms-flexbox;
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nav-item {
+        flex-basis: auto;
+        flex-shrink: 1;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 0.5rem 0.8rem;
     }
 }

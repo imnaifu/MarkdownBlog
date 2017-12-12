@@ -156,7 +156,8 @@ body {
     border-radius: 50%; }
   #me p {
     font-size: 3rem;
-    margin: 10px 0; }
+    margin: 10px 0;
+    text-align: center; }
   #me .scene {
     position: relative;
     display: block;
@@ -284,7 +285,7 @@ body {
   #sidebar #sidebar-header {
     height: 70px;
     padding: 20px 10px;
-    border-bottom: 1px solid #dadada; }
+    border-bottom: 1px solid #404e66; }
 
 #blog_default {
   display: grid;

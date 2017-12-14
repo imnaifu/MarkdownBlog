@@ -156,8 +156,7 @@ body {
     border-radius: 50%; }
   #me p {
     font-size: 3rem;
-    margin: 10px 0;
-    text-align: center; }
+    margin: 10px 0; }
   #me .scene {
     position: relative;
     display: block;
@@ -285,7 +284,7 @@ body {
   #sidebar #sidebar-header {
     height: 70px;
     padding: 20px 10px;
-    border-bottom: 1px solid #404e66; }
+    border-bottom: 1px solid #8ea4bf; }
 
 #blog_default {
   display: grid;
@@ -314,5 +313,9 @@ body {
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
     #blog_default .flex-item:hover {
       box-shadow: 0 15px 29px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  #blog_default .blog_date {
+    font-size: 0.8rem;
+    font-weight: 200;
+    font-style: italic; }
 
 /*# sourceMappingURL=main.css.map */

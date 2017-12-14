@@ -4,10 +4,10 @@
             "filename": "class/first article.md",
             "title": "First article",
             "type" : "Type 1",
-            "date": "1970-01-01"
+            "date": "May 1st, 2017"
         },
         {
-            "filename": "class/second article.md",
+            "filename": "second article.md",
             "title": "Second article",
             "type" : "Type 2",
             "date": "1970-01-01"

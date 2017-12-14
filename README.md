@@ -11,6 +11,11 @@ That's all
 1. Fork this lib to your own repo
 2. Go to Settings change the repository name to 'your-name.github.io'
 3. Then go to https://your-name.github.io, you will see the template (if not please wait for a minute)
+- p.s: if u wanna use the newest version:
+  1. copy out the data folder.
+  2. delete whole repo and fork the new one.
+  3. replace the data folder with your old data folder
+  4. done!!
 
 ## Configration
 config file is in '/static/config/config.json', currently there are only a few options (I will add more trust me).

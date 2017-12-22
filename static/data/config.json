@@ -1,9 +1,11 @@
 {
 	"page_title": "Title",
-    "enable_resume": false,
+
+    "enable_resume": true,
+
     "nav_text": ["Me", "Resume", "Blog"],
 
-    "me_animation": true,
-    "me_img": "avatar.jpg",
+    "me_img": "",
+
     "me_text": "Hello, world"
 }

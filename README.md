@@ -22,8 +22,7 @@ config file is in '/static/config/config.json', currently there are only a few o
 - page_title: string, this will be the title for the page
 - enable_resume: boolean, set true if you want the resume link show on the top right, otherwise false
 - nav_text: length 3 array, this is the text of the link in the top right (if 'enable_resume' set to false, second value will be ignore)
-- me_animation: boolean, set true if you want the little plane animation to show in the 'me' page
-- me_image: string, this option only works when you set the 'me_animation' to false, then it will use the image-file you put here
+- me_image: string, img file name or empty sting. if is empty string like '', will use the animation, else use the image file which save in the 'img' folder.
 - me_text: string, this the the text you can put to replace 'Hello' in the 'me' page
 
 ## What then

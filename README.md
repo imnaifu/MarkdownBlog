@@ -6,7 +6,9 @@ Unlike Jekll or Hexo, MarkdownBlog doesn't require command line process.
 1. put your markdown file into '/static/data/article' folder
 2. register your file in the '/static/data/article_info.json
 That's all  
-**DEMO**: imnaifu.github.io
+
+## **DEMO**
+http://imnaifu.github.io
 
 ## How to use
 1. Fork this lib to your own repo

@@ -63,7 +63,13 @@ e.g you have two articles, the registration file will be something like this.
 Put all you image into the '/static/data/img/' folder, then anywhere if you wanna use the image, just using the filename.
 - If you wanna add image into the markdown file, there are two ways
   1. Using the outside image then \[\](image-src-url)
-  2. Put your image into the img folder then include uisng \[\](image-file-name.jpb)
+  2. Put your image into the img folder then include uisng \[\](image-file-name.jpb)  
+fyi: image also support size control
+```
+![foo](foo.jpg =100x80)     simple, assumes units are in px
+![bar](bar.jpg =100x*)      sets the height to "auto"
+![baz](baz.jpg =80%x5em)  Image with width of 80% and height of 5em
+```
  
 #### How to add vedio
 Local vedio is not supported, you can only include vedio from vedio platform
